@@ -3,7 +3,7 @@ Escribir un programa para obtener un array de las propiedades de un objeto Perso
 Las propiedades son nombre, edad, sexo ('H' hombre, 'M' mujer, 'O' otro), peso y altura.
 */
 
-console.log("Array con attr de objeto persona")
+console.log("Array con attr de objeto persona");
 
 // Defino el objeto persona
 let persona = {
