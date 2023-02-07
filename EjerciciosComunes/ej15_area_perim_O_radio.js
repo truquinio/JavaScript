@@ -29,5 +29,5 @@ const area = circulo.calcularArea();
 const perimetro = circulo.calcularPerimetro();
 
 // Imprimo los resultados
-console.log(`El área del círculo es: ${area}`);
-console.log(`El perímetro del círculo es: ${perimetro}`);
+console.log(`El área del círculo es: ${area}
+El perímetro del círculo es: ${perimetro}`);
