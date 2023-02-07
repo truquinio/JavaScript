@@ -7,7 +7,7 @@ indique “El día de hoy está ...”, completando el mensaje con el dato que i
 alert("Mostrar clima");
 
 // 1. Solicita al usuario que ingrese estado de clima
-var estadoClima = prompt("¿Cómo está el día de hoy? (soleado, nublado, lloviendo)");
+let estadoClima = prompt("¿Cómo está el día de hoy? (soleado, nublado, lloviendo)");
 
 // Muestra alerta del estado del clima
 console.log("El día de hoy está " + estadoClima);
