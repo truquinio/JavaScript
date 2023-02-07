@@ -6,6 +6,7 @@ alert("Invertir palabra ingresada")
 
 // Defino la función flecha que invertirá la palabra ingresada por el usuario
 const invertirPalabra = () => {
+
   // Pido al usuario que ingrese una palabra
   let palabra = prompt("Ingrese una palabra:");
   
@@ -14,6 +15,7 @@ const invertirPalabra = () => {
   
   // Recorro cada letra de la palabra desde el final hasta el inicio
   for (let i = palabra.length - 1; i >= 0; i--) {
+    
     // Agrego la letra actual a la palabra invertida
     palabraInvertida += palabra[i];
   }
@@ -24,3 +26,7 @@ const invertirPalabra = () => {
 
 // Llamo a la función
 invertirPalabra();
+
+
+//  OTRA FORMA (En una línea)
+let frase = prompt("Ingrese una palabra:").split("").reverse().join("");
