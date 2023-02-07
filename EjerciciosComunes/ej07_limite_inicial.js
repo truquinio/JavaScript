@@ -6,29 +6,24 @@ límite inicial.
 
 alert("Solicita n° hasta que suma supere límite inicial")
 
-// Declaramos una variable para almacenar el límite
-var limit = parseInt(prompt("Ingrese el límite positivo:"));
+do {
+  // Declaramos una variable para almacenar el límite
+  let limite = parseInt(prompt("Ingrese el límite positivo:"));
 
-// Verifico si el límite es positivo
-if (limit <= 0) {
-  
-  // Si no es positivo, muestro un mensaje de error
-  console.log("El límite debe ser un número positivo");
+  // Verifico si el límite es positivo
+} while (limite < 0);
 
-} else {
-  // Si es positivo, declaramos una variable para almacenar la suma de los números introducidos
-  var sum = 0;
+let suma = 0;
+
+do {
+  // Solicito un número al usuario
+  let num = parseInt(prompt("Ingrese un número:"));
+
+  // Sumo el número introducido a la suma total
+  suma += num;
 
   // Repito el proceso hasta que la suma supere el límite
-  while (sum <= limit) {
+} while (suma <= limite);
 
-    // Solicito un número al usuario
-    var num = parseInt(prompt("Ingrese un número:"));
-
-    // Sumo el número introducido a la suma total
-    sum += num;
-  }
-
-  // Muestro un mensaje que indica que se ha superado el límite
-  console.log("La suma de los números introducidos ha superado el límite");
-}
+// Muestro un mensaje que indica que se ha superado el límite
+console.log("La suma de los números introducidos ha superado el límite");
