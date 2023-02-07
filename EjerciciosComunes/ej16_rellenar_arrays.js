@@ -11,10 +11,11 @@ let vector2 = [];
 
 // Itero para rellenar los vectores con 5 valores aleatorios
 for (let i = 0; i < 5; i++) {
-  vector1[i] = Math.random();
-  vector2[i] = Math.random();
+  
+  vector1[i] = Math.trunc(Math.random()*10);
+  vector2[i] = Math.trunc(Math.random()*10);
 }
 
 // Imprimo los vectores
-console.log("Vector 1:", vector1);
-console.log("Vector 2:", vector2);
+console.log(`Vector 1: ${vector1}
+Vector 2: ${vector2}`);
