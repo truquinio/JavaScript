@@ -4,7 +4,7 @@ String Ejemplo: “Guia de JavaScript”
 Resultado esperado : “JavaScript”
 */
 
-alert("Mostrar la palabra más larga")
+alert("Mostrar la palabra más larga");
 
 // Defino la función que encontrará la palabra más larga en una frase
 const palabraMasLarga = () => {
