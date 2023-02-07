@@ -8,7 +8,7 @@ ordenados al arreglo B de 20 elementos, y rellenar los 10 últimos elementos con
 de 20.
 */
 
-console.log("Crear 2 arrays y combinarlos")
+console.log("Crear 2 arrays y combinarlos");
 
 // Creo una función para generar números aleatorios y truncar la parte entera
 function getRandomNumber() {
