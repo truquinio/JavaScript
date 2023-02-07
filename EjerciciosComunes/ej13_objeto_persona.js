@@ -15,8 +15,8 @@ const persona = {
 };
 
 // Muestro las propiedades del objeto persona
-console.log(`Nombre: ${persona.nombre}`);
-console.log(`Edad: ${persona.edad}`);
-console.log(`Sexo: ${persona.sexo}`);
-console.log(`Peso: ${persona.peso}`);
-console.log(`Altura: ${persona.altura}`);
+console.log(`Nombre: ${persona.nombre}
+Edad: ${persona.edad}
+Sexo: ${persona.sexo}
+Peso: ${persona.peso}
+Altura: ${persona.altura}`);
