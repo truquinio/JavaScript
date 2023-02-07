@@ -3,10 +3,10 @@ Escribir una función flecha de JavaScript que reciba un argumento y retorne el 
 dato.
 */
 
-alert("Retornar el tipo de dato ingresado")
+alert("Retornar el tipo de dato ingresado");
 
 // Defino una función flecha que recibe un argumento
-const typeOfData = (arg) => {
+const tipoDeDato = (arg) => {
   
   // Utilizo la función typeof para obtener el tipo de dato del argumento
   let dataType = typeof arg;
@@ -19,8 +19,7 @@ const typeOfData = (arg) => {
 let arg = prompt("Ingrese un argumento");
 
 // Llamo a la función typeOfData y le paso el argumento ingresado por el usuario
-let result = typeOfData(arg);
+let result = tipoDeDato(arg);
 
-// Muestro el resultado en un alert
-alert(`El tipo de dato es: ${result}`);
+// Muestro el resultado
 console.log(`El tipo de dato es: ${result}`);
