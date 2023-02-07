@@ -19,15 +19,15 @@ const libro = {
     this.ISBN = prompt("Ingrese el ISBN");
     this.titulo = prompt("Ingrese el título");
     this.autor = prompt("Ingrese el autor");
-    this.numPaginas = parseInt(prompt("Ingrese el número de páginas"));
+    this.numPaginas = parseInt(prompt("Ingrese el n° de páginas"));
   },
 
   // Creo un método para informar los datos del libro
   informarDatos: function () {
-    console.log(`ISBN: ${this.ISBN}`);
-    console.log(`Título: ${this.titulo}`);
-    console.log(`Autor: ${this.autor}`);
-    console.log(`Número de páginas: ${this.numPaginas}`);
+    console.log(`ISBN: ${this.ISBN}
+    Título: ${this.titulo}
+    Autor: ${this.autor}
+    N° de páginas: ${this.numPaginas}`);
   }
 };
 
