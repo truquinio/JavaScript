@@ -22,5 +22,5 @@ for (propiedad in persona) {
   propiedades.push(propiedad);
 }
 
-// Muestro el resultado en consola
+// Imprimo resultado en consola
 console.log(propiedades);
