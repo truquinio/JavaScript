@@ -9,17 +9,17 @@ perimetro = 2 * PI * radio
 
 alert("Área y perímetro de ○")
 
-// Constante que representa el número PI
-const PI = 3.14159265358979323846;
+// Variable que representa el número PI
+let PI = Math.PI; 
 
 // Solicita al usuario que ingrese el radio de una circunferencia
-var radio = parseFloat(prompt("Ingrese el valor del radio de una circunferencia"));
+let radio = parseFloat(prompt("Ingrese el valor del radio de una circunferencia"));
 
 // Calcula el área de la circunferencia
-var area = PI * Math.pow(radio, 2); // Math.pow = potencia de un número
+let area = PI * Math.pow(radio, 2); // Math.pow = potencia de un número
 
 // Calcular el perímetro de la circunferencia
-var perimetro = 2 * PI * radio;
+let perimetro = 2 * PI * radio;
 
 // Mostrar los resultados por pantalla
 console.log("El área de la circunferencia es: " + area);
