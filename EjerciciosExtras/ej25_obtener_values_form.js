@@ -19,12 +19,12 @@ Apellido: <input type="text" name="apellido" value="Beckham"><br>
 function getFormValores() {
   
   // Obtengo el formulario por su id
-  var form = document.getElementById("form1");
+  let form = document.getElementById("form");
 
   // Obtengo los valores de nombre y apellido
-  var nombre = form.elements.nombre.value;
-  var apellido = form.elements.apellido.value;
+  let nombre = form.elements.nombre.value;
+  let apellido = form.elements.apellido.value;
 
   // Muestro los valores en una alerta
-  alert("Nombre: " + nombre + "\nApellido: " + apellido);
+  alert("Nombre: " + nombre + "\n Apellido: " + apellido);
 }
