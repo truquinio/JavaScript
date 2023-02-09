@@ -1,6 +1,7 @@
 /*
 Escriba una función de JavaScript para obtener los valores de Nombre y Apellido del
 siguiente formulario.
+
 <!DOCTYPE html>
 <html><head>
 <meta charset=utf-8 />
