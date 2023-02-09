@@ -19,5 +19,5 @@ for (let i = 0; i < frase.length; i++) {
   fraseEspaciada += frase.charAt(i) + " ";
 }
 
-// Muestro la frase espaciada
+// Muestro la frase con espacios
 console.log(fraseEspaciada);
